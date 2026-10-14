@@ -1,0 +1,12 @@
+.env
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.rag_index/
+.rag_index.staging/
+.rag_index.backup/
+scheme_pdfs/*.pdf
+!scheme_pdfs/.gitkeep
+*.log

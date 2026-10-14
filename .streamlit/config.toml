@@ -1,0 +1,5 @@
+[server]
+# Avoid Streamlit recursively inspecting the Transformers module tree. This can
+# trigger optional torchvision imports while running Hugging Face text embeddings.
+# Restart Streamlit manually after editing application files.
+fileWatcherType = "none"
